@@ -52,7 +52,8 @@ kotlin {
             implementation(compose.components.uiToolingPreview)
             implementation(libs.androidx.lifecycle.viewmodel)
             implementation(libs.androidx.lifecycle.runtime.compose)
-            implementation(libs.coil.compose.core)
+            implementation(libs.coil3.coil.compose)
+            implementation(libs.coil.network.ktor3)
         }
     }
 }
